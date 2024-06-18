@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Banking Automtion">
+
+	<listeners>
+		<listener class-name="com.BankingAutomation.utilities.Reporting" />
+	</listeners> 
+
+
+	<test name="Banking Application WebBased">
+		<classes>
+			 <class name="com.BankingAutomation.testCases.TC_loginTest001" /> 
+			 <class name="com.BankingAutomation.testCases.TC_LoginTest_DDT" />
+			 <class name="com.BankingAutomation.testCases.TC_AddCustomerTest" />
+<!-- 			 <class name ="com.BankingAutomation.testCases.AddCutomerDetailsHashMapToExcelVertically"/>  -->
+<!-- 			 <class name ="com.BankingAutomation.testCases.AddCutomerDetailsHashMapToExcelHorizontally"/>  -->
+<!-- 		 	<class name ="com.BankingAutomation.testCases.AddCustDetails"/>  -->
+			<class name ="com.BankingAutomation.testCases.DeleteCustomer"/>
+		</classes>
+
+	</test>
+
+</suite>

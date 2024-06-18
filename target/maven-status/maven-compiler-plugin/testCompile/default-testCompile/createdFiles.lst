@@ -1,0 +1,15 @@
+com\BankingAutomation\testCases\TC_AddCustomerTest.class
+com\BankingAutomation\testCases\BaseClass.class
+com\BankingAutomation\pageObjects\AddCustomerPage.class
+com\BankingAutomation\utilities\XLSUtils.class
+com\BankingAutomation\testCases\TC_LoginTest_DDT.class
+com\BankingAutomation\testCases\AddCutomerDetailsHashMapToExcelVertically.class
+com\BankingAutomation\pageObjects\logInPage.class
+com\BankingAutomation\utilities\ReadConfig.class
+com\BankingAutomation\testCases\AddCustDetails.class
+com\BankingAutomation\testCases\AddCustomerDetailsSaveDemo.class
+com\BankingAutomation\testCases\TC_loginTest001.class
+com\BankingAutomation\pageObjects\DeleteCustomerPage.class
+com\BankingAutomation\utilities\Reporting.class
+com\BankingAutomation\testCases\DeleteCustomer.class
+com\BankingAutomation\testCases\AddCutomerDetailsHashMapToExcelHorizontally.class

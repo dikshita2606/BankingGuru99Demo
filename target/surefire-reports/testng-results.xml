@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-10T20:55:14 IST" name="Banking Automtion" finished-at="2023-09-10T20:58:05 IST" duration-ms="170674">
+    <groups>
+    </groups>
+    <test started-at="2023-09-10T20:55:14 IST" name="Banking Application WebBased" finished-at="2023-09-10T20:58:05 IST" duration-ms="170674">
+      <class name="com.BankingAutomation.testCases.DeleteCustomer">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.BankingAutomation.testCases.DeleteCustomer@1283bb96]" started-at="2023-09-10T20:57:41 IST" name="setup" finished-at="2023-09-10T20:57:49 IST" duration-ms="7776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="deletecust(java.lang.String)[pri:0, instance:com.BankingAutomation.testCases.DeleteCustomer@1283bb96]" started-at="2023-09-10T20:57:49 IST" name="deletecust" data-provider="DelCustomer" finished-at="2023-09-10T20:58:03 IST" duration-ms="14050" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[86817]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletecust -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.BankingAutomation.testCases.DeleteCustomer@1283bb96]" started-at="2023-09-10T20:58:03 IST" name="teardown" finished-at="2023-09-10T20:58:05 IST" duration-ms="2450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.BankingAutomation.testCases.DeleteCustomer -->
+      <class name="com.BankingAutomation.testCases.TC_loginTest001">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.BankingAutomation.testCases.TC_loginTest001@747ddf94]" started-at="2023-09-10T20:55:15 IST" name="setup" finished-at="2023-09-10T20:55:30 IST" duration-ms="15441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:0, instance:com.BankingAutomation.testCases.TC_loginTest001@747ddf94]" started-at="2023-09-10T20:55:30 IST" name="loginTest" finished-at="2023-09-10T20:55:35 IST" duration-ms="4948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.BankingAutomation.testCases.TC_loginTest001@747ddf94]" started-at="2023-09-10T20:55:35 IST" name="teardown" finished-at="2023-09-10T20:55:36 IST" duration-ms="1080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.BankingAutomation.testCases.TC_loginTest001 -->
+      <class name="com.BankingAutomation.testCases.TC_AddCustomerTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.BankingAutomation.testCases.TC_AddCustomerTest@6aeb35e6]" started-at="2023-09-10T20:56:57 IST" name="setup" finished-at="2023-09-10T20:57:05 IST" duration-ms="7308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addCustomer()[pri:0, instance:com.BankingAutomation.testCases.TC_AddCustomerTest@6aeb35e6]" started-at="2023-09-10T20:57:05 IST" name="addCustomer" finished-at="2023-09-10T20:57:40 IST" duration-ms="34962" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.BankingAutomation.testCases.TC_AddCustomerTest@6aeb35e6]" started-at="2023-09-10T20:57:40 IST" name="teardown" finished-at="2023-09-10T20:57:41 IST" duration-ms="1123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.BankingAutomation.testCases.TC_AddCustomerTest -->
+      <class name="com.BankingAutomation.testCases.TC_LoginTest_DDT">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.BankingAutomation.testCases.TC_LoginTest_DDT@293a5bf6]" started-at="2023-09-10T20:55:36 IST" name="setup" finished-at="2023-09-10T20:55:43 IST" duration-ms="6746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.BankingAutomation.testCases.TC_LoginTest_DDT@293a5bf6]" started-at="2023-09-10T20:55:46 IST" name="loginDDT" data-provider="LoginData" finished-at="2023-09-10T20:56:00 IST" duration-ms="13892" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr136913]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Omn@12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.BankingAutomation.testCases.TC_LoginTest_DDT@293a5bf6]" started-at="2023-09-10T20:56:00 IST" name="loginDDT" data-provider="LoginData" finished-at="2023-09-10T20:56:16 IST" duration-ms="16057" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr136913]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Omn@12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.BankingAutomation.testCases.TC_LoginTest_DDT@293a5bf6]" started-at="2023-09-10T20:56:16 IST" name="loginDDT" data-provider="LoginData" finished-at="2023-09-10T20:56:30 IST" duration-ms="13493" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr136913]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Omn@12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.BankingAutomation.testCases.TC_LoginTest_DDT@293a5bf6]" started-at="2023-09-10T20:56:30 IST" name="loginDDT" data-provider="LoginData" finished-at="2023-09-10T20:56:42 IST" duration-ms="12402" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr136913]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Omn@12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.BankingAutomation.testCases.TC_LoginTest_DDT@293a5bf6]" started-at="2023-09-10T20:56:42 IST" name="loginDDT" data-provider="LoginData" finished-at="2023-09-10T20:56:56 IST" duration-ms="13971" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr136913]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Omn@12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.BankingAutomation.testCases.TC_LoginTest_DDT@293a5bf6]" started-at="2023-09-10T20:56:56 IST" name="teardown" finished-at="2023-09-10T20:56:57 IST" duration-ms="1217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.BankingAutomation.testCases.TC_LoginTest_DDT -->
+    </test> <!-- Banking Application WebBased -->
+  </suite> <!-- Banking Automtion -->
+</testng-results>

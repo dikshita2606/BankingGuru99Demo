@@ -1,0 +1,505 @@
+2023-09-02 16:43:48,746 - com.BankingAutomation.testCases.BaseClass -INFO - Chrome instance is open
+2023-09-02 16:43:55,112 - com.BankingAutomation.testCases.BaseClass -INFO - launching URL
+2023-09-02 16:44:00,370 - com.BankingAutomation.testCases.BaseClass -INFO - Test Case ended and Chrome is closed
+2023-09-02 16:45:15,017 - com.BankingAutomation.testCases.BaseClass -INFO - Chrome instance is open
+2023-09-02 16:45:21,998 - com.BankingAutomation.testCases.BaseClass -INFO - launching URL
+2023-09-02 16:45:27,225 - com.BankingAutomation.testCases.BaseClass -INFO - Test Case ended and Chrome is closed
+2023-09-02 16:46:17,991 - com.BankingAutomation.testCases.BaseClass -INFO - Chrome instance is open
+2023-09-02 16:46:24,351 - com.BankingAutomation.testCases.BaseClass -INFO - launching URL
+2023-09-02 16:46:35,452 - com.BankingAutomation.testCases.BaseClass -INFO - UserNAme set
+2023-09-02 16:46:35,724 - com.BankingAutomation.testCases.BaseClass -INFO - Password set
+2023-09-02 16:46:37,662 - com.BankingAutomation.testCases.BaseClass -INFO - Login Btn Clicked
+2023-09-02 16:46:40,936 - com.BankingAutomation.testCases.BaseClass -INFO - New Customer Clicked
+2023-09-02 17:01:40,473 - com.BankingAutomation.testCases.BaseClass -INFO - Chrome instance is open
+2023-09-02 17:01:48,342 - com.BankingAutomation.testCases.BaseClass -INFO - launching URL
+2023-09-02 17:02:03,196 - com.BankingAutomation.testCases.BaseClass -INFO - UserNAme set
+2023-09-02 17:02:03,436 - com.BankingAutomation.testCases.BaseClass -INFO - Password set
+2023-09-02 17:02:05,664 - com.BankingAutomation.testCases.BaseClass -INFO - Login Btn Clicked
+2023-09-02 17:02:08,868 - com.BankingAutomation.testCases.BaseClass -INFO - New Customer Clicked
+2023-09-02 17:03:49,110 - com.BankingAutomation.testCases.BaseClass -INFO - Test Case ended and Chrome is closed
+2023-09-02 17:06:48,120 - com.BankingAutomation.testCases.BaseClass -INFO - Chrome instance is open
+2023-09-02 17:06:54,649 - com.BankingAutomation.testCases.BaseClass -INFO - launching URL
+2023-09-02 17:09:28,385 - com.BankingAutomation.testCases.BaseClass -INFO - Chrome instance is open
+2023-09-02 17:09:33,828 - com.BankingAutomation.testCases.BaseClass -INFO - launching URL
+2023-09-02 17:10:39,998 - com.BankingAutomation.testCases.BaseClass -INFO - UserNAme set
+2023-09-02 17:10:40,153 - com.BankingAutomation.testCases.BaseClass -INFO - Password set
+2023-09-02 17:10:42,297 - com.BankingAutomation.testCases.BaseClass -INFO - Login Btn Clicked
+2023-09-02 17:10:45,461 - com.BankingAutomation.testCases.BaseClass -INFO - New Customer Clicked
+2023-09-02 17:11:43,900 - org.asynchttpclient.netty.handler.WebSocketHandler -WARN - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:367)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:398)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2023-09-02 17:11:44,982 - com.BankingAutomation.testCases.BaseClass -INFO - Test Case ended and Chrome is closed
+2023-09-02 17:16:08,622 - com.BankingAutomation.testCases.BaseClass -INFO - Chrome instance is open
+2023-09-02 17:16:14,594 - com.BankingAutomation.testCases.BaseClass -INFO - launching URL
+2023-09-02 17:16:52,731 - com.BankingAutomation.testCases.BaseClass -INFO - Test Case ended and Chrome is closed
+2023-09-02 17:17:37,098 - com.BankingAutomation.testCases.BaseClass -INFO - Chrome instance is open
+2023-09-02 17:17:41,857 - com.BankingAutomation.testCases.BaseClass -INFO - launching URL
+2023-09-02 17:17:41,875 - org.testng.internal.Utils -ERROR - [Error] java.io.FileNotFoundException: D:\eclipse\eclipse\eclipse-workspace\selenium\BankingAutomation_v1\src\test\java\com\BankingAutomation\testData\CustomerDetailsAd.xlsx (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:108)
+	at com.BankingAutomation.utilities.XLSUtils.getRowCount(XLSUtils.java:23)
+	at com.BankingAutomation.testCases.AddCustDetails.getCustomerDetails(AddCustDetails.java:94)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:53)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:157)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:803)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
+	at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+	at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:924)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+2023-09-02 17:17:43,099 - com.BankingAutomation.testCases.BaseClass -INFO - Test Case ended and Chrome is closed
+2023-09-02 17:17:43,214 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.internal.ExitCodeListener@40d10481: 0 ms
+2023-09-02 17:17:43,357 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@675ffd1d: 141 ms
+2023-09-02 17:17:43,623 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.jq.Main@e4d2696: 264 ms
+2023-09-02 17:17:43,660 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.FailedReporter@67403656: 33 ms
+2023-09-02 17:17:43,709 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.XMLReporter@2bf94401: 47 ms
+2023-09-02 17:17:43,723 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@3b7b05a8: 13 ms
+2023-09-02 17:17:43,742 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@38eb2fb0: 18 ms
+2023-09-02 17:18:23,122 - com.BankingAutomation.testCases.BaseClass -INFO - Chrome instance is open
+2023-09-02 17:18:26,973 - com.BankingAutomation.testCases.BaseClass -INFO - launching URL
+2023-09-02 17:21:50,315 - com.BankingAutomation.testCases.BaseClass -INFO - Test Case ended and Chrome is closed
+2023-09-02 17:24:21,360 - com.BankingAutomation.testCases.BaseClass -INFO - Chrome instance is open
+2023-09-02 17:24:27,303 - com.BankingAutomation.testCases.BaseClass -INFO - launching URL
+2023-09-02 17:25:05,649 - com.BankingAutomation.testCases.BaseClass -INFO - UserNAme set
+2023-09-02 17:25:05,861 - com.BankingAutomation.testCases.BaseClass -INFO - Password set
+2023-09-02 17:25:08,223 - com.BankingAutomation.testCases.BaseClass -INFO - Login Btn Clicked
+2023-09-02 17:25:11,401 - com.BankingAutomation.testCases.BaseClass -INFO - New Customer Clicked
+2023-09-02 17:25:50,852 - com.BankingAutomation.testCases.BaseClass -INFO - logOut clicked
+2023-09-02 17:25:53,205 - com.BankingAutomation.testCases.BaseClass -INFO - Test Case ended and Chrome is closed
+2023-09-02 17:27:22,276 - com.BankingAutomation.testCases.BaseClass -INFO - Chrome instance is open
+2023-09-02 17:27:27,261 - com.BankingAutomation.testCases.BaseClass -INFO - launching URL
+2023-09-02 17:27:49,631 - com.BankingAutomation.testCases.BaseClass -INFO - UserNAme set
+2023-09-02 17:27:49,847 - com.BankingAutomation.testCases.BaseClass -INFO - Password set
+2023-09-02 17:27:52,676 - com.BankingAutomation.testCases.BaseClass -INFO - Login Btn Clicked
+2023-09-02 17:27:55,862 - com.BankingAutomation.testCases.BaseClass -INFO - New Customer Clicked
+2023-09-02 17:31:08,887 - com.BankingAutomation.testCases.BaseClass -INFO - Test Case ended and Chrome is closed
+2023-09-02 17:32:41,904 - com.BankingAutomation.testCases.BaseClass -INFO - Chrome instance is open
+2023-09-02 17:32:47,681 - com.BankingAutomation.testCases.BaseClass -INFO - launching URL
+2023-09-02 17:32:50,850 - com.BankingAutomation.testCases.BaseClass -INFO - UserNAme set
+2023-09-02 17:32:51,103 - com.BankingAutomation.testCases.BaseClass -INFO - Password set
+2023-09-02 17:32:52,665 - com.BankingAutomation.testCases.BaseClass -INFO - Login Btn Clicked
+2023-09-02 17:32:55,860 - com.BankingAutomation.testCases.BaseClass -INFO - New Customer Clicked
+2023-09-02 17:33:28,913 - com.BankingAutomation.testCases.BaseClass -INFO - logOut clicked
+2023-09-02 17:33:30,191 - com.BankingAutomation.testCases.BaseClass -INFO - UserNAme set
+2023-09-02 17:33:30,403 - com.BankingAutomation.testCases.BaseClass -INFO - Password set
+2023-09-02 17:33:31,560 - com.BankingAutomation.testCases.BaseClass -INFO - Login Btn Clicked
+2023-09-02 17:34:05,980 - com.BankingAutomation.testCases.BaseClass -INFO - New Customer Clicked
+2023-09-02 17:35:24,239 - com.BankingAutomation.testCases.BaseClass -INFO - Test Case ended and Chrome is closed
+2023-09-02 18:31:45,479 - com.BankingAutomation.testCases.BaseClass -INFO - Chrome instance is open
+2023-09-02 18:31:52,318 - com.BankingAutomation.testCases.BaseClass -INFO - launching URL
+2023-09-02 18:31:55,281 - com.BankingAutomation.testCases.BaseClass -INFO - LogIn bn clicked
+2023-09-02 18:31:56,486 - com.BankingAutomation.testCases.BaseClass -INFO - Test Case ended and Chrome is closed
+2023-09-02 18:34:05,321 - com.BankingAutomation.testCases.BaseClass -INFO - Chrome instance is open
+2023-09-02 18:34:12,058 - com.BankingAutomation.testCases.BaseClass -INFO - launching URL
+2023-09-02 18:34:16,189 - com.BankingAutomation.testCases.BaseClass -INFO - LogIn bn clicked
+2023-09-02 18:34:17,850 - com.BankingAutomation.testCases.BaseClass -INFO - Test Case ended and Chrome is closed
+2023-09-02 18:34:18,039 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.internal.ExitCodeListener@9d1a267: 0 ms
+2023-09-02 18:34:18,093 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@33cbfa57: 53 ms
+2023-09-02 18:34:18,325 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.jq.Main@14f3c6fc: 230 ms
+2023-09-02 18:34:18,347 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.FailedReporter@6fd5717c: 21 ms
+2023-09-02 18:34:18,377 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.XMLReporter@3cee53dc: 28 ms
+2023-09-02 18:34:18,396 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@4393593c: 19 ms
+2023-09-02 18:34:18,440 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@2c43eb8: 43 ms
+2023-09-02 22:28:03,816 - com.BankingAutomation.testCases.BaseClass -INFO - Chrome instance is open
+2023-09-02 22:28:09,275 - com.BankingAutomation.testCases.BaseClass -INFO - launching URL
+2023-09-02 22:28:12,823 - com.BankingAutomation.testCases.BaseClass -INFO - Test Case ended and Chrome is closed
+2023-09-02 22:28:54,784 - com.BankingAutomation.testCases.BaseClass -INFO - Chrome instance is open
+2023-09-02 22:28:58,687 - com.BankingAutomation.testCases.BaseClass -INFO - launching URL
+2023-09-02 22:29:02,454 - com.BankingAutomation.testCases.BaseClass -INFO - LogIn bn clicked
+2023-09-02 22:29:32,045 - com.BankingAutomation.testCases.BaseClass -INFO - Test Case ended and Chrome is closed
+2023-09-02 22:29:32,211 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.internal.ExitCodeListener@54aca26f: 0 ms
+2023-09-02 22:29:32,267 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@5c748168: 55 ms
+2023-09-02 22:29:32,427 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.jq.Main@33b082c5: 159 ms
+2023-09-02 22:29:32,458 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.FailedReporter@4d774249: 30 ms
+2023-09-02 22:29:32,480 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.XMLReporter@73ad4ecc: 19 ms
+2023-09-02 22:29:32,509 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@26d820eb: 21 ms
+2023-09-02 22:29:32,536 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@49293b43: 26 ms
+2023-09-02 22:30:52,827 - com.BankingAutomation.testCases.BaseClass -INFO - Chrome instance is open
+2023-09-02 22:30:56,716 - com.BankingAutomation.testCases.BaseClass -INFO - launching URL
+2023-09-02 22:31:00,684 - com.BankingAutomation.testCases.BaseClass -INFO - LogIn bn clicked
+2023-09-02 22:34:09,440 - com.BankingAutomation.testCases.BaseClass -INFO - Chrome instance is open
+2023-09-02 22:34:17,309 - com.BankingAutomation.testCases.BaseClass -INFO - launching URL
+2023-09-02 22:34:23,918 - com.BankingAutomation.testCases.BaseClass -INFO - LogIn bn clicked
+2023-09-02 22:34:26,802 - com.BankingAutomation.testCases.BaseClass -INFO - Test Case ended and Chrome is closed
+2023-09-02 22:34:26,819 - com.BankingAutomation.testCases.BaseClass -INFO - Test Case ended and Chrome is closed
+2023-09-02 22:34:27,136 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.internal.ExitCodeListener@54aca26f: 0 ms
+2023-09-02 22:34:27,153 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.internal.ExitCodeListener@314ed053: 0 ms
+2023-09-02 22:34:27,209 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@5c748168: 71 ms
+2023-09-02 22:34:27,225 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@6441c486: 71 ms
+2023-09-02 22:34:27,426 - org.testng.reporters.jq.Main -ERROR - D:\eclipse\eclipse\eclipse-workspace\selenium\BankingAutomation_v1\test-output\testng-reports.css
+java.nio.file.FileAlreadyExistsException: D:\eclipse\eclipse\eclipse-workspace\selenium\BankingAutomation_v1\test-output\testng-reports.css
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235)
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:478)
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:224)
+	at java.base/java.nio.file.Files.copy(Files.java:3144)
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95)
+	at org.testng.TestNG.generateReports(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1072)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2023-09-02 22:34:27,443 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.jq.Main@776802b0: 233 ms
+2023-09-02 22:34:27,482 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.FailedReporter@30814f43: 38 ms
+2023-09-02 22:34:27,528 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.XMLReporter@53ac845a: 45 ms
+2023-09-02 22:34:27,572 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.jq.Main@16073fa8: 345 ms
+2023-09-02 22:34:27,598 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@76c52298: 53 ms
+2023-09-02 22:34:27,783 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.FailedReporter@17b64941: 191 ms
+2023-09-02 22:34:27,863 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@4393593c: 262 ms
+2023-09-02 22:34:27,863 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.XMLReporter@69da0b12: 78 ms
+2023-09-02 22:34:27,910 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@507d20bb: 45 ms
+2023-09-02 22:34:27,956 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@5ff60a8c: 45 ms
+2023-09-02 22:35:42,124 - com.BankingAutomation.testCases.BaseClass -INFO - Chrome instance is open
+2023-09-02 22:35:50,095 - com.BankingAutomation.testCases.BaseClass -INFO - launching URL
+2023-09-02 22:35:52,420 - com.BankingAutomation.testCases.BaseClass -INFO - LogIn bn clicked
+2023-09-02 22:35:54,112 - com.BankingAutomation.testCases.BaseClass -INFO - Test Case ended and Chrome is closed
+2023-09-02 22:36:52,110 - com.BankingAutomation.testCases.BaseClass -INFO - Chrome instance is open
+2023-09-02 22:36:59,225 - com.BankingAutomation.testCases.BaseClass -INFO - launching URL
+2023-09-02 22:37:03,735 - com.BankingAutomation.testCases.BaseClass -INFO - LogIn bn clicked
+2023-09-02 22:39:56,299 - com.BankingAutomation.testCases.BaseClass -INFO - Chrome instance is open
+2023-09-02 22:40:02,776 - com.BankingAutomation.testCases.BaseClass -INFO - launching URL
+2023-09-02 22:40:05,518 - com.BankingAutomation.testCases.BaseClass -INFO - LogIn bn clicked
+2023-09-02 22:40:42,853 - com.BankingAutomation.testCases.BaseClass -INFO - Test Case ended and Chrome is closed
+2023-09-02 22:41:46,133 - com.BankingAutomation.testCases.BaseClass -INFO - Chrome instance is open
+2023-09-02 22:41:52,191 - com.BankingAutomation.testCases.BaseClass -INFO - launching URL
+2023-09-02 22:41:56,925 - com.BankingAutomation.testCases.BaseClass -INFO - LogIn bn clicked
+2023-09-02 22:41:58,640 - com.BankingAutomation.testCases.BaseClass -INFO - Test Case ended and Chrome is closed
+2023-09-02 22:47:29,557 - com.BankingAutomation.testCases.BaseClass -INFO - Chrome instance is open
+2023-09-02 22:47:35,914 - com.BankingAutomation.testCases.BaseClass -INFO - launching URL
+2023-09-02 22:47:40,611 - com.BankingAutomation.testCases.BaseClass -INFO - LogIn bn clicked
+2023-09-02 22:47:42,303 - com.BankingAutomation.testCases.BaseClass -INFO - Test Case ended and Chrome is closed
+2023-09-02 22:47:42,487 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.internal.ExitCodeListener@4e61e4c2: 0 ms
+2023-09-02 22:47:42,536 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@2c6ee758: 48 ms
+2023-09-02 22:47:42,703 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.jq.Main@6972c30a: 166 ms
+2023-09-02 22:47:42,732 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.FailedReporter@68c87fc3: 26 ms
+2023-09-02 22:47:42,755 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.XMLReporter@2125ad3: 22 ms
+2023-09-02 22:47:42,777 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@26a2f7f9: 21 ms
+2023-09-02 22:47:42,809 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@36f1046f: 30 ms
+2023-09-02 22:49:49,417 - com.BankingAutomation.testCases.BaseClass -INFO - Chrome instance is open
+2023-09-02 22:49:54,633 - com.BankingAutomation.testCases.BaseClass -INFO - launching URL
+2023-09-02 22:49:57,188 - com.BankingAutomation.testCases.BaseClass -INFO - LogIn bn clicked
+2023-09-02 22:49:58,894 - com.BankingAutomation.testCases.BaseClass -INFO - Test Case ended and Chrome is closed
+2023-09-02 22:49:59,034 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.internal.ExitCodeListener@c6a6c1d: 0 ms
+2023-09-02 22:49:59,086 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@640dc4c6: 51 ms
+2023-09-02 22:49:59,270 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.jq.Main@57a48985: 182 ms
+2023-09-02 22:49:59,309 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.FailedReporter@bc0f53b: 37 ms
+2023-09-02 22:49:59,355 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.XMLReporter@7a5b769b: 44 ms
+2023-09-02 22:49:59,397 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@38eb2c50: 33 ms
+2023-09-02 22:49:59,430 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@56d93692: 32 ms
+2023-09-02 22:51:54,930 - com.BankingAutomation.testCases.BaseClass -INFO - Chrome instance is open
+2023-09-02 22:52:00,085 - com.BankingAutomation.testCases.BaseClass -INFO - launching URL
+2023-09-02 22:52:04,332 - com.BankingAutomation.testCases.BaseClass -INFO - Test Case ended and Chrome is closed
+2023-09-02 22:52:04,557 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.internal.ExitCodeListener@63fdffcd: 0 ms
+2023-09-02 22:52:04,611 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@35636217: 53 ms
+2023-09-02 22:52:04,777 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.jq.Main@9fec931: 165 ms
+2023-09-02 22:52:04,809 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.FailedReporter@3f672204: 32 ms
+2023-09-02 22:52:04,832 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.XMLReporter@252f626c: 21 ms
+2023-09-02 22:52:04,855 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@58496dc: 22 ms
+2023-09-02 22:52:04,891 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@24361cfc: 34 ms
+2023-09-02 22:52:58,481 - com.BankingAutomation.testCases.BaseClass -INFO - Chrome instance is open
+2023-09-02 22:53:04,683 - com.BankingAutomation.testCases.BaseClass -INFO - launching URL
+2023-09-02 22:53:07,520 - com.BankingAutomation.testCases.BaseClass -INFO - LogIn bn clicked
+2023-09-02 22:53:13,786 - com.BankingAutomation.testCases.BaseClass -INFO - Test Case ended and Chrome is closed
+2023-09-02 22:56:16,092 - com.BankingAutomation.testCases.BaseClass -INFO - Chrome instance is open
+2023-09-02 22:56:22,614 - com.BankingAutomation.testCases.BaseClass -INFO - launching URL
+2023-09-02 22:56:25,981 - com.BankingAutomation.testCases.BaseClass -INFO - LogIn bn clicked
+2023-09-02 22:56:31,499 - org.asynchttpclient.netty.handler.WebSocketHandler -WARN - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:367)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:398)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2023-09-02 22:56:32,418 - com.BankingAutomation.testCases.BaseClass -INFO - Test Case ended and Chrome is closed
+2023-09-02 22:57:28,745 - com.BankingAutomation.testCases.BaseClass -INFO - Chrome instance is open
+2023-09-02 22:57:33,350 - com.BankingAutomation.testCases.BaseClass -INFO - launching URL
+2023-09-02 22:57:36,412 - com.BankingAutomation.testCases.BaseClass -INFO - LogIn bn clicked
+2023-09-02 22:57:43,018 - com.BankingAutomation.testCases.BaseClass -INFO - Test Case ended and Chrome is closed
+2023-09-02 22:57:43,221 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.internal.ExitCodeListener@f3fcd59: 0 ms
+2023-09-02 22:57:43,273 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@3bead518: 50 ms
+2023-09-02 22:57:43,423 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.jq.Main@238acd0b: 149 ms
+2023-09-02 22:57:43,459 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.FailedReporter@76c548f: 35 ms
+2023-09-02 22:57:43,484 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.XMLReporter@4e31c3ec: 24 ms
+2023-09-02 22:57:43,506 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@6e495b48: 21 ms
+2023-09-02 22:57:43,536 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@75e710b: 27 ms
+2023-09-02 22:58:16,950 - com.BankingAutomation.testCases.BaseClass -INFO - Chrome instance is open
+2023-09-02 22:58:22,600 - com.BankingAutomation.testCases.BaseClass -INFO - launching URL
+2023-09-02 22:58:26,027 - com.BankingAutomation.testCases.BaseClass -INFO - LogIn bn clicked
+2023-09-02 22:58:32,849 - com.BankingAutomation.testCases.BaseClass -INFO - Test Case ended and Chrome is closed
+2023-09-02 22:58:33,058 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.internal.ExitCodeListener@48535004: 0 ms
+2023-09-02 22:58:33,110 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@1cc9cfb2: 51 ms
+2023-09-02 22:58:33,333 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.jq.Main@58496dc: 220 ms
+2023-09-02 22:58:33,364 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.FailedReporter@56d93692: 31 ms
+2023-09-02 22:58:33,395 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.XMLReporter@3cec79d3: 30 ms
+2023-09-02 22:58:33,421 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@28348c6: 25 ms
+2023-09-02 22:58:33,455 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@58e92c23: 34 ms
+2023-09-02 22:59:33,375 - com.BankingAutomation.testCases.BaseClass -INFO - Chrome instance is open
+2023-09-02 22:59:39,096 - com.BankingAutomation.testCases.BaseClass -INFO - launching URL
+2023-09-02 23:00:07,915 - com.BankingAutomation.testCases.BaseClass -INFO - LogIn bn clicked
+2023-09-02 23:01:19,948 - com.BankingAutomation.testCases.BaseClass -INFO - Chrome instance is open
+2023-09-02 23:01:25,607 - com.BankingAutomation.testCases.BaseClass -INFO - launching URL
+2023-09-02 23:01:30,072 - com.BankingAutomation.testCases.BaseClass -INFO - LogIn bn clicked
+2023-09-02 23:01:37,625 - com.BankingAutomation.testCases.BaseClass -INFO - 49460 entered
+2023-09-02 23:01:37,758 - com.BankingAutomation.testCases.BaseClass -INFO - Submit btn Clicked
+2023-09-02 23:01:40,553 - com.BankingAutomation.testCases.BaseClass -INFO - Test Case ended and Chrome is closed
+2023-09-02 23:03:14,831 - com.BankingAutomation.testCases.BaseClass -INFO - Chrome instance is open
+2023-09-02 23:03:18,562 - com.BankingAutomation.testCases.BaseClass -INFO - launching URL
+2023-09-02 23:03:22,277 - com.BankingAutomation.testCases.BaseClass -INFO - LogIn bn clicked
+2023-09-02 23:03:29,894 - com.BankingAutomation.testCases.BaseClass -INFO - 11713 entered
+2023-09-02 23:03:30,037 - com.BankingAutomation.testCases.BaseClass -INFO - Submit btn Clicked
+2023-09-02 23:03:33,345 - com.BankingAutomation.testCases.BaseClass -INFO - logOut clicked
+2023-09-02 23:03:36,810 - com.BankingAutomation.testCases.BaseClass -INFO - LogIn bn clicked
+2023-09-02 23:03:45,721 - com.BankingAutomation.testCases.BaseClass -INFO - Test Case ended and Chrome is closed
+2023-09-02 23:05:24,484 - com.BankingAutomation.testCases.BaseClass -INFO - Chrome instance is open
+2023-09-02 23:05:30,944 - com.BankingAutomation.testCases.BaseClass -INFO - launching URL
+2023-09-02 23:05:33,317 - com.BankingAutomation.testCases.BaseClass -INFO - LogIn bn clicked
+2023-09-02 23:05:40,420 - com.BankingAutomation.testCases.BaseClass -INFO - 11713 entered
+2023-09-02 23:05:40,533 - com.BankingAutomation.testCases.BaseClass -INFO - Submit btn Clicked
+2023-09-02 23:05:43,960 - com.BankingAutomation.testCases.BaseClass -INFO - logOut clicked
+2023-09-02 23:05:48,352 - com.BankingAutomation.testCases.BaseClass -INFO - LogIn bn clicked
+2023-09-02 23:05:57,125 - com.BankingAutomation.testCases.BaseClass -INFO - Test Case ended and Chrome is closed
+2023-09-10 19:24:55,362 - com.BankingAutomation.testCases.BaseClass -INFO - Chrome instance is open
+2023-09-10 19:25:00,075 - com.BankingAutomation.testCases.BaseClass -INFO - launching URL
+2023-09-10 19:25:00,962 - com.BankingAutomation.testCases.BaseClass -INFO - UserName is entered sucessfully
+2023-09-10 19:25:01,165 - com.BankingAutomation.testCases.BaseClass -INFO - Password is entered sucessfully
+2023-09-10 19:25:04,172 - com.BankingAutomation.testCases.BaseClass -INFO - Submit button is clicked
+2023-09-10 19:25:04,269 - com.BankingAutomation.testCases.BaseClass -INFO - Title Matched
+2023-09-10 19:25:06,517 - com.BankingAutomation.testCases.BaseClass -INFO - Test Case ended and Chrome is closed
+2023-09-10 19:25:09,931 - com.BankingAutomation.testCases.BaseClass -INFO - Chrome instance is open
+2023-09-10 19:25:16,992 - com.BankingAutomation.testCases.BaseClass -INFO - launching URL
+2023-09-10 19:25:20,863 - com.BankingAutomation.testCases.BaseClass -INFO - User Name set successfully
+2023-09-10 19:25:21,057 - com.BankingAutomation.testCases.BaseClass -INFO - Password set successfully
+2023-09-10 19:25:23,207 - com.BankingAutomation.testCases.BaseClass -INFO - Submit Button Clicked
+2023-09-10 19:25:26,254 - com.BankingAutomation.testCases.BaseClass -INFO - Login passed
+2023-09-10 19:25:33,480 - com.BankingAutomation.testCases.BaseClass -INFO - User Name set successfully
+2023-09-10 19:25:33,633 - com.BankingAutomation.testCases.BaseClass -INFO - Password set successfully
+2023-09-10 19:25:34,171 - com.BankingAutomation.testCases.BaseClass -INFO - Submit Button Clicked
+2023-09-10 19:25:40,776 - com.BankingAutomation.testCases.BaseClass -INFO - User Name set successfully
+2023-09-10 19:25:41,000 - com.BankingAutomation.testCases.BaseClass -INFO - Password set successfully
+2023-09-10 19:25:42,979 - com.BankingAutomation.testCases.BaseClass -INFO - Submit Button Clicked
+2023-09-10 19:25:45,998 - com.BankingAutomation.testCases.BaseClass -INFO - Login passed
+2023-09-10 19:25:54,343 - com.BankingAutomation.testCases.BaseClass -INFO - User Name set successfully
+2023-09-10 19:25:54,495 - com.BankingAutomation.testCases.BaseClass -INFO - Password set successfully
+2023-09-10 19:25:55,602 - com.BankingAutomation.testCases.BaseClass -INFO - Submit Button Clicked
+2023-09-10 19:26:01,702 - com.BankingAutomation.testCases.BaseClass -INFO - User Name set successfully
+2023-09-10 19:26:01,850 - com.BankingAutomation.testCases.BaseClass -INFO - Password set successfully
+2023-09-10 19:26:03,861 - com.BankingAutomation.testCases.BaseClass -INFO - Submit Button Clicked
+2023-09-10 19:26:06,909 - com.BankingAutomation.testCases.BaseClass -INFO - Login passed
+2023-09-10 19:26:15,088 - com.BankingAutomation.testCases.BaseClass -INFO - User Name set successfully
+2023-09-10 19:26:15,261 - com.BankingAutomation.testCases.BaseClass -INFO - Password set successfully
+2023-09-10 19:26:16,971 - com.BankingAutomation.testCases.BaseClass -INFO - Submit Button Clicked
+2023-09-10 19:26:19,987 - com.BankingAutomation.testCases.BaseClass -INFO - Login passed
+2023-09-10 19:26:27,147 - com.BankingAutomation.testCases.BaseClass -INFO - User Name set successfully
+2023-09-10 19:26:27,303 - com.BankingAutomation.testCases.BaseClass -INFO - Password set successfully
+2023-09-10 19:26:27,922 - com.BankingAutomation.testCases.BaseClass -INFO - Submit Button Clicked
+2023-09-10 19:26:33,933 - com.BankingAutomation.testCases.BaseClass -INFO - User Name set successfully
+2023-09-10 19:26:34,117 - com.BankingAutomation.testCases.BaseClass -INFO - Password set successfully
+2023-09-10 19:26:35,801 - com.BankingAutomation.testCases.BaseClass -INFO - Submit Button Clicked
+2023-09-10 19:26:38,845 - com.BankingAutomation.testCases.BaseClass -INFO - Login passed
+2023-09-10 19:26:47,196 - com.BankingAutomation.testCases.BaseClass -INFO - User Name set successfully
+2023-09-10 19:26:47,350 - com.BankingAutomation.testCases.BaseClass -INFO - Password set successfully
+2023-09-10 19:26:48,476 - com.BankingAutomation.testCases.BaseClass -INFO - Submit Button Clicked
+2023-09-10 19:26:54,533 - com.BankingAutomation.testCases.BaseClass -INFO - User Name set successfully
+2023-09-10 19:26:54,693 - com.BankingAutomation.testCases.BaseClass -INFO - Password set successfully
+2023-09-10 19:26:56,614 - com.BankingAutomation.testCases.BaseClass -INFO - Submit Button Clicked
+2023-09-10 19:26:59,660 - com.BankingAutomation.testCases.BaseClass -INFO - Login passed
+2023-09-10 19:27:07,616 - com.BankingAutomation.testCases.BaseClass -INFO - Test Case ended and Chrome is closed
+2023-09-10 19:27:10,863 - com.BankingAutomation.testCases.BaseClass -INFO - Chrome instance is open
+2023-09-10 19:27:34,421 - com.BankingAutomation.testCases.BaseClass -INFO - launching URL
+2023-09-10 19:27:34,929 - com.BankingAutomation.testCases.BaseClass -INFO - User Name set successfully
+2023-09-10 19:27:35,125 - com.BankingAutomation.testCases.BaseClass -INFO - Password set successfully
+2023-09-10 19:27:47,007 - com.BankingAutomation.testCases.BaseClass -INFO - Submit Button Clicked
+2023-09-10 19:27:50,241 - com.BankingAutomation.testCases.BaseClass -INFO - Add Customer is clicked
+2023-09-10 19:28:14,921 - com.BankingAutomation.testCases.BaseClass -INFO - Submit btn clicked
+2023-09-10 19:28:21,438 - com.BankingAutomation.testCases.BaseClass -INFO - logOut clicked
+2023-09-10 19:28:22,760 - com.BankingAutomation.testCases.BaseClass -INFO - Test Case ended and Chrome is closed
+2023-09-10 19:28:28,992 - com.BankingAutomation.testCases.BaseClass -INFO - Chrome instance is open
+2023-09-10 19:28:35,153 - com.BankingAutomation.testCases.BaseClass -INFO - launching URL
+2023-09-10 19:28:35,752 - com.BankingAutomation.testCases.BaseClass -INFO - User Name set successfully
+2023-09-10 19:28:36,619 - com.BankingAutomation.testCases.BaseClass -INFO - Password set successfully
+2023-09-10 19:28:38,036 - com.BankingAutomation.testCases.BaseClass -INFO - Submit Button Clicked
+2023-09-10 19:28:41,304 - com.BankingAutomation.testCases.BaseClass -INFO - Add Customer Link is clicked
+2023-09-10 19:29:01,248 - com.BankingAutomation.testCases.BaseClass -INFO - Submit btn clicked
+2023-09-10 19:29:03,369 - com.BankingAutomation.testCases.BaseClass -INFO - Test Case ended and Chrome is closed
+2023-09-10 19:29:06,653 - com.BankingAutomation.testCases.BaseClass -INFO - Chrome instance is open
+2023-09-10 19:29:12,280 - com.BankingAutomation.testCases.BaseClass -INFO - launching URL
+2023-09-10 19:29:12,737 - com.BankingAutomation.testCases.BaseClass -INFO - User Name set successfully
+2023-09-10 19:29:13,012 - com.BankingAutomation.testCases.BaseClass -INFO - Password set successfully
+2023-09-10 19:29:14,430 - com.BankingAutomation.testCases.BaseClass -INFO - Submit Button Clicked
+2023-09-10 19:29:17,669 - com.BankingAutomation.testCases.BaseClass -INFO - Add Customer Link is clicked
+2023-09-10 19:29:37,096 - com.BankingAutomation.testCases.BaseClass -INFO - Submit btn clicked
+2023-09-10 19:29:39,475 - com.BankingAutomation.testCases.BaseClass -INFO - Test Case ended and Chrome is closed
+2023-09-10 19:29:42,597 - com.BankingAutomation.testCases.BaseClass -INFO - Chrome instance is open
+2023-09-10 19:29:47,122 - com.BankingAutomation.testCases.BaseClass -INFO - launching URL
+2023-09-10 19:29:49,423 - com.BankingAutomation.testCases.BaseClass -INFO - UserNAme set
+2023-09-10 19:29:49,649 - com.BankingAutomation.testCases.BaseClass -INFO - Password set
+2023-09-10 19:29:50,945 - com.BankingAutomation.testCases.BaseClass -INFO - Login Btn Clicked
+2023-09-10 19:29:54,092 - com.BankingAutomation.testCases.BaseClass -INFO - New Customer Clicked
+2023-09-10 19:30:15,282 - com.BankingAutomation.testCases.BaseClass -INFO - Test Case ended and Chrome is closed
+2023-09-10 19:30:18,266 - com.BankingAutomation.testCases.BaseClass -INFO - Chrome instance is open
+2023-09-10 19:30:23,584 - com.BankingAutomation.testCases.BaseClass -INFO - launching URL
+2023-09-10 19:30:25,646 - com.BankingAutomation.testCases.BaseClass -INFO - LogIn bn clicked
+2023-09-10 19:30:33,346 - com.BankingAutomation.testCases.BaseClass -INFO - 11713 entered
+2023-09-10 19:30:34,165 - com.BankingAutomation.testCases.BaseClass -INFO - Submit btn Clicked
+2023-09-10 19:30:37,243 - com.BankingAutomation.testCases.BaseClass -INFO - logOut clicked
+2023-09-10 19:30:40,208 - com.BankingAutomation.testCases.BaseClass -INFO - LogIn bn clicked
+2023-09-10 19:30:48,265 - com.BankingAutomation.testCases.BaseClass -INFO - Test Case ended and Chrome is closed
+2023-09-10 19:52:05,102 - com.BankingAutomation.testCases.BaseClass -INFO - Chrome instance is open
+2023-09-10 19:52:11,588 - com.BankingAutomation.testCases.BaseClass -INFO - launching URL
+2023-09-10 19:52:13,216 - com.BankingAutomation.testCases.BaseClass -INFO - UserName is entered sucessfully
+2023-09-10 19:52:13,451 - com.BankingAutomation.testCases.BaseClass -INFO - Password is entered sucessfully
+2023-09-10 19:52:16,345 - com.BankingAutomation.testCases.BaseClass -INFO - Submit button is clicked
+2023-09-10 19:52:16,391 - com.BankingAutomation.testCases.BaseClass -INFO - Title Matched
+2023-09-10 19:52:18,594 - com.BankingAutomation.testCases.BaseClass -INFO - Test Case ended and Chrome is closed
+2023-09-10 19:52:21,494 - com.BankingAutomation.testCases.BaseClass -INFO - Chrome instance is open
+2023-09-10 19:52:27,270 - com.BankingAutomation.testCases.BaseClass -INFO - launching URL
+2023-09-10 19:52:30,750 - com.BankingAutomation.testCases.BaseClass -INFO - User Name set successfully
+2023-09-10 19:52:30,931 - com.BankingAutomation.testCases.BaseClass -INFO - Password set successfully
+2023-09-10 19:52:34,141 - com.BankingAutomation.testCases.BaseClass -INFO - Submit Button Clicked
+2023-09-10 19:52:37,231 - com.BankingAutomation.testCases.BaseClass -INFO - Login passed
+2023-09-10 19:52:45,243 - com.BankingAutomation.testCases.BaseClass -INFO - User Name set successfully
+2023-09-10 19:52:45,520 - com.BankingAutomation.testCases.BaseClass -INFO - Password set successfully
+2023-09-10 19:52:48,603 - com.BankingAutomation.testCases.BaseClass -INFO - Submit Button Clicked
+2023-09-10 19:52:51,632 - com.BankingAutomation.testCases.BaseClass -INFO - Login passed
+2023-09-10 19:52:59,906 - com.BankingAutomation.testCases.BaseClass -INFO - User Name set successfully
+2023-09-10 19:53:00,073 - com.BankingAutomation.testCases.BaseClass -INFO - Password set successfully
+2023-09-10 19:53:01,819 - com.BankingAutomation.testCases.BaseClass -INFO - Submit Button Clicked
+2023-09-10 19:53:04,865 - com.BankingAutomation.testCases.BaseClass -INFO - Login passed
+2023-09-10 19:53:13,360 - com.BankingAutomation.testCases.BaseClass -INFO - User Name set successfully
+2023-09-10 19:53:13,518 - com.BankingAutomation.testCases.BaseClass -INFO - Password set successfully
+2023-09-10 19:53:15,572 - com.BankingAutomation.testCases.BaseClass -INFO - Submit Button Clicked
+2023-09-10 19:53:18,598 - com.BankingAutomation.testCases.BaseClass -INFO - Login passed
+2023-09-10 19:53:26,321 - com.BankingAutomation.testCases.BaseClass -INFO - User Name set successfully
+2023-09-10 19:53:26,466 - com.BankingAutomation.testCases.BaseClass -INFO - Password set successfully
+2023-09-10 19:53:28,124 - com.BankingAutomation.testCases.BaseClass -INFO - Submit Button Clicked
+2023-09-10 19:53:31,162 - com.BankingAutomation.testCases.BaseClass -INFO - Login passed
+2023-09-10 19:53:39,474 - com.BankingAutomation.testCases.BaseClass -INFO - Test Case ended and Chrome is closed
+2023-09-10 19:53:42,267 - com.BankingAutomation.testCases.BaseClass -INFO - Chrome instance is open
+2023-09-10 19:53:50,216 - com.BankingAutomation.testCases.BaseClass -INFO - launching URL
+2023-09-10 19:53:50,634 - com.BankingAutomation.testCases.BaseClass -INFO - User Name set successfully
+2023-09-10 19:53:50,840 - com.BankingAutomation.testCases.BaseClass -INFO - Password set successfully
+2023-09-10 19:53:54,584 - com.BankingAutomation.testCases.BaseClass -INFO - Submit Button Clicked
+2023-09-10 19:53:57,894 - com.BankingAutomation.testCases.BaseClass -INFO - Add Customer is clicked
+2023-09-10 19:54:16,017 - com.BankingAutomation.testCases.BaseClass -INFO - Submit btn clicked
+2023-09-10 19:54:23,124 - com.BankingAutomation.testCases.BaseClass -INFO - logOut clicked
+2023-09-10 19:54:24,238 - com.BankingAutomation.testCases.BaseClass -INFO - Test Case ended and Chrome is closed
+2023-09-10 19:54:27,145 - com.BankingAutomation.testCases.BaseClass -INFO - Chrome instance is open
+2023-09-10 19:54:32,003 - com.BankingAutomation.testCases.BaseClass -INFO - launching URL
+2023-09-10 19:54:37,293 - com.BankingAutomation.testCases.BaseClass -INFO - LogIn bn clicked
+2023-09-10 19:54:44,980 - com.BankingAutomation.testCases.BaseClass -INFO - 61518 entered
+2023-09-10 19:54:45,406 - com.BankingAutomation.testCases.BaseClass -INFO - Submit btn Clicked
+2023-09-10 19:54:48,827 - com.BankingAutomation.testCases.BaseClass -INFO - logOut clicked
+2023-09-10 19:54:52,211 - com.BankingAutomation.testCases.BaseClass -INFO - LogIn bn clicked
+2023-09-10 19:55:00,687 - com.BankingAutomation.testCases.BaseClass -INFO - Test Case ended and Chrome is closed
+2023-09-10 20:28:15,624 - com.BankingAutomation.testCases.BaseClass -INFO - Chrome instance is open
+2023-09-10 20:28:20,529 - com.BankingAutomation.testCases.BaseClass -INFO - launching URL
+2023-09-10 20:28:26,203 - com.BankingAutomation.testCases.BaseClass -INFO - LogIn bn clicked
+2023-09-10 20:28:33,568 - com.BankingAutomation.testCases.BaseClass -INFO - 61518 entered
+2023-09-10 20:28:34,029 - com.BankingAutomation.testCases.BaseClass -INFO - Submit btn Clicked
+2023-09-10 20:28:37,337 - com.BankingAutomation.testCases.BaseClass -INFO - logOut clicked
+2023-09-10 20:28:43,372 - com.BankingAutomation.testCases.BaseClass -INFO - LogIn bn clicked
+2023-09-10 20:28:51,322 - com.BankingAutomation.testCases.BaseClass -INFO - Test Case ended and Chrome is closed
+2023-09-10 20:28:51,453 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.internal.ExitCodeListener@7c84195: 0 ms
+2023-09-10 20:28:51,505 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@557eb543: 52 ms
+2023-09-10 20:28:51,691 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.jq.Main@30a7c98f: 184 ms
+2023-09-10 20:28:51,742 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.FailedReporter@2e23c180: 42 ms
+2023-09-10 20:28:51,818 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.XMLReporter@41bf79da: 75 ms
+2023-09-10 20:28:51,843 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@2a32fb6: 23 ms
+2023-09-10 20:28:51,866 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@6009bea: 22 ms
+2023-09-10 20:55:24,682 - com.BankingAutomation.testCases.BaseClass -INFO - Chrome instance is open
+2023-09-10 20:55:30,607 - com.BankingAutomation.testCases.BaseClass -INFO - launching URL
+2023-09-10 20:55:31,310 - com.BankingAutomation.testCases.BaseClass -INFO - UserName is entered sucessfully
+2023-09-10 20:55:32,357 - com.BankingAutomation.testCases.BaseClass -INFO - Password is entered sucessfully
+2023-09-10 20:55:34,019 - com.BankingAutomation.testCases.BaseClass -INFO - Submit button is clicked
+2023-09-10 20:55:34,048 - com.BankingAutomation.testCases.BaseClass -INFO - Title Matched
+2023-09-10 20:55:36,678 - com.BankingAutomation.testCases.BaseClass -INFO - Test Case ended and Chrome is closed
+2023-09-10 20:55:39,550 - com.BankingAutomation.testCases.BaseClass -INFO - Chrome instance is open
+2023-09-10 20:55:43,428 - com.BankingAutomation.testCases.BaseClass -INFO - launching URL
+2023-09-10 20:55:47,347 - com.BankingAutomation.testCases.BaseClass -INFO - User Name set successfully
+2023-09-10 20:55:47,554 - com.BankingAutomation.testCases.BaseClass -INFO - Password set successfully
+2023-09-10 20:55:50,016 - com.BankingAutomation.testCases.BaseClass -INFO - Submit Button Clicked
+2023-09-10 20:55:53,077 - com.BankingAutomation.testCases.BaseClass -INFO - Login passed
+2023-09-10 20:56:01,033 - com.BankingAutomation.testCases.BaseClass -INFO - User Name set successfully
+2023-09-10 20:56:02,070 - com.BankingAutomation.testCases.BaseClass -INFO - Password set successfully
+2023-09-10 20:56:05,890 - com.BankingAutomation.testCases.BaseClass -INFO - Submit Button Clicked
+2023-09-10 20:56:08,916 - com.BankingAutomation.testCases.BaseClass -INFO - Login passed
+2023-09-10 20:56:16,995 - com.BankingAutomation.testCases.BaseClass -INFO - User Name set successfully
+2023-09-10 20:56:17,461 - com.BankingAutomation.testCases.BaseClass -INFO - Password set successfully
+2023-09-10 20:56:20,356 - com.BankingAutomation.testCases.BaseClass -INFO - Submit Button Clicked
+2023-09-10 20:56:23,405 - com.BankingAutomation.testCases.BaseClass -INFO - Login passed
+2023-09-10 20:56:30,491 - com.BankingAutomation.testCases.BaseClass -INFO - User Name set successfully
+2023-09-10 20:56:30,662 - com.BankingAutomation.testCases.BaseClass -INFO - Password set successfully
+2023-09-10 20:56:32,573 - com.BankingAutomation.testCases.BaseClass -INFO - Submit Button Clicked
+2023-09-10 20:56:35,611 - com.BankingAutomation.testCases.BaseClass -INFO - Login passed
+2023-09-10 20:56:42,881 - com.BankingAutomation.testCases.BaseClass -INFO - User Name set successfully
+2023-09-10 20:56:43,391 - com.BankingAutomation.testCases.BaseClass -INFO - Password set successfully
+2023-09-10 20:56:45,958 - com.BankingAutomation.testCases.BaseClass -INFO - Submit Button Clicked
+2023-09-10 20:56:49,004 - com.BankingAutomation.testCases.BaseClass -INFO - Login passed
+2023-09-10 20:56:57,880 - com.BankingAutomation.testCases.BaseClass -INFO - Test Case ended and Chrome is closed
+2023-09-10 20:57:00,714 - com.BankingAutomation.testCases.BaseClass -INFO - Chrome instance is open
+2023-09-10 20:57:05,189 - com.BankingAutomation.testCases.BaseClass -INFO - launching URL
+2023-09-10 20:57:05,622 - com.BankingAutomation.testCases.BaseClass -INFO - User Name set successfully
+2023-09-10 20:57:05,818 - com.BankingAutomation.testCases.BaseClass -INFO - Password set successfully
+2023-09-10 20:57:07,222 - com.BankingAutomation.testCases.BaseClass -INFO - Submit Button Clicked
+2023-09-10 20:57:10,571 - com.BankingAutomation.testCases.BaseClass -INFO - Add Customer is clicked
+2023-09-10 20:57:33,598 - com.BankingAutomation.testCases.BaseClass -INFO - Submit btn clicked
+2023-09-10 20:57:40,152 - com.BankingAutomation.testCases.BaseClass -INFO - logOut clicked
+2023-09-10 20:57:41,275 - com.BankingAutomation.testCases.BaseClass -INFO - Test Case ended and Chrome is closed
+2023-09-10 20:57:44,366 - com.BankingAutomation.testCases.BaseClass -INFO - Chrome instance is open
+2023-09-10 20:57:49,053 - com.BankingAutomation.testCases.BaseClass -INFO - launching URL
+2023-09-10 20:57:51,065 - com.BankingAutomation.testCases.BaseClass -INFO - LogIn bn clicked
+2023-09-10 20:57:59,021 - com.BankingAutomation.testCases.BaseClass -INFO - 86817 entered
+2023-09-10 20:57:59,168 - com.BankingAutomation.testCases.BaseClass -INFO - Submit btn Clicked
+2023-09-10 20:58:03,089 - com.BankingAutomation.testCases.BaseClass -INFO - logOut clicked
+2023-09-10 20:58:05,556 - com.BankingAutomation.testCases.BaseClass -INFO - Test Case ended and Chrome is closed
